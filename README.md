@@ -93,7 +93,7 @@ You can pull the Docker image from DockerHub and run it directly.
 
 #### Endpoint
 
-- `POST /synthesize`
+- `POST /tts`
 
 #### Request Body
 
@@ -105,7 +105,7 @@ You can pull the Docker image from DockerHub and run it directly.
 #### Example Request
 
 ```bash
-curl -X POST http://localhost:5000/synthesize \
+curl -X POST http://localhost:5000/tts \
      -H "Content-Type: application/json" \
      -d '{
            "text": "Hello, this is a test of Microsoft Text to Speech service.",
